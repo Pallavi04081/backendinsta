@@ -15,7 +15,7 @@ console.log(error)
 
 const io = new Server(server,{
     cors:{
-        origin:"http://localhost:3000",
+        origin:"https://regal-cat-2cff5f.netlify.app",
         method:["GET","POST"]
     }
 });
