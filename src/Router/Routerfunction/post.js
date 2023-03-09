@@ -21,7 +21,7 @@ const uploadPhoto = async(req,res)=>{
            msg:"file not found"
          })
         }
-  const imageData = `${'https://insta-360-backend.herokuapp.com'}/post/${req.file.filename}`    
+  const imageData = `${'https://recipe-book-app.onrender.com'}/post/${req.file.filename}`    
   res.status(200).json({
     imageData
   })
